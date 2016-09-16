@@ -1,2 +1,2 @@
 # Big-Data-Competition-2016
-NOTE: This repository is for sharing codes with members in the team, not for other persons.
+NOTE: This purpose of the repository is to share codes with members (NOT FOR OTHER PERSONS) in the team.
