@@ -24,7 +24,7 @@ class DeepLearning:
     outputFile = ""
     numVolumes = 1
     numPoints = 7
-    iterationTimes = 200
+    iterationTimes = 1000
     randomSamplingNumberForTraining = 50
     batchNumberForTesting = 1000
     x = []
