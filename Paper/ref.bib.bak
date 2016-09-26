@@ -192,24 +192,6 @@
   Title                    = {Bike Sharing Ridership Forecast using Structural Equation Modeling},
   Year                     = {2015},
 
-  Abstract                 = {This study investigates the effects of demographic and built environment characteristics near bike
-sharing stations on bike sharing ridership levels in four U.S. bike share systems: California Bay
-Area, Chicago, New York, and Minneapolis/St. Paul Bike Share. While previous studies have
-focused on the analysis of origin stations in isolation, this project considers both origin and
-destination station characteristics as well as the tripmaking patterns between station pairs. We
-developed BikeSEM, A Structural Equation Model (SEM) to forecast the ridership between every
-pair of stations in the bike share system. Using SEM methodology instead of conventional linear
-regressions we were able to make best use of available ridership data from three demotions: total
-rentals from each stations, total returns to each stations and ridership between each pair of stations.
-Forecasting bike share ridership at Origin-Destination level can help to improve future active
-transportation planning. For example we can prioritize bike path projects knowing popular origin
-and destination bike station pairs. This project also expands on previous studies by including the
-network effects of the size and spatial distribution of the bike sharing station network and by
-comparing experiences across systems; particular attention is paid to data quality and consistency
-issues raised by a multi-city analysis. Relative to previous models, this model will be more widely
-applicable to a diverse range of communities and help those interested in adopting bike sharing
-systems to predict potential levels of ridership and identify station locations that will serve the
-greatest number of riders.},
   Publisher                = {Association for Computing Machinery (ACM)},
   Timestamp                = {2016.09.21}
 }
