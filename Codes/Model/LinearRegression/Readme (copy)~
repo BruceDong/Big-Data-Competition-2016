@@ -1,9 +1,0 @@
-This folder contains Linear Regression model.
-
-Run:
-
-$python CallLR -t trainfile -e testfile -o result
-
-Note:
-
-Before running this package, please make sure that you have installed R and Python.

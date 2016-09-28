@@ -6,7 +6,7 @@ $make clean
 
 $make
 
-$./SVR trainfile modelfile testfile result
+$./SVM trainfile modelfile testfile result
 
 If you want to call SVR by Python, please compile SVR first, then run the following:
 
