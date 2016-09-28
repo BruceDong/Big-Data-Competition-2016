@@ -1,0 +1,11 @@
+This folder contains Linear Regression model.
+
+System Requirement: Ubuntu
+
+Run CMD:
+
+$python CallLR -t trainfile -e testfile -o result
+
+Notice:
+
+Before running this package, please make sure that you have installed R and Python on your system.

@@ -1,0 +1,9 @@
+This folder contains Neural Network model.
+
+Run:
+
+$python CallNN -t trainfile -e testfile -o result
+
+Note:
+
+Before running this package, please make sure that you have installed R and Python.

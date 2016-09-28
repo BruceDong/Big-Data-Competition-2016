@@ -1,0 +1,45 @@
+#! /usr/bin/Rscript
+
+#首先删除工作空间中所有对象  
+rm(list=ls(all=TRUE))	
+
+Args <- commandArgs();
+#cat("trainPath = ",Args[6],"\n");
+trainPath <- Args[6];
+#cat("testPath = ",Args[7],"\n");
+testPath <- Args[7];
+#cat("resultPath = ",Args[8],"\n");
+resultPath <- Args[8];
+
+#分别导入训练和测试数据  
+trainSample = read.csv(trainPath,header = TRUE);
+#trainSample;
+rownumber <- nrow(trainSample);
+#cat(rownumber);
+if(rownumber > 0)
+{
+	#cat(trainPath);
+	#cat("\n");
+	#cat("trainNumber:");
+	#cat(rownumber);
+	#cat("\n");
+	#用训练数据生成模型，这里用第2-10列数据预测第1列 
+	model <- lm(V1~V2 + V3 + V4 + V5 + V6 + V7 + V8 + V9 + V10,data = trainSample);
+
+	testSample = read.csv(testPath,header = TRUE);
+	#用模型对测试数据进行预测  
+	testSampleNumber <- nrow(testSample);
+	#cat(testSampleNumber);
+	if(testSampleNumber > 0)
+	{
+		#cat(testPath);
+		#cat("\n");
+		#cat("testNumber:");
+		#cat(testSampleNumber);
+		#cat("\n");
+		p = predict(model,testSample[2:10]);
+		#cat(resultPath);
+
+		write(p,resultPath,ncolumns = 1,append = FALSE);
+	}
+}

@@ -1,0 +1,19 @@
+This folder contains SVR model.
+
+Run CMD:
+
+$make clean
+
+$make
+
+$./SVM trainfile modelfile testfile result
+
+If you want to call SVR by Python, please compile SVR first, then run the following:
+
+$python CallSVR -t trainfile -e testfile -o result
+
+If you want a SVM model, Please click the following link:
+
+http://svmlight.joachims.org/
+
+There is an introduction to set the package such as kernel funtion and cost.
